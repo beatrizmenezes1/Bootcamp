@@ -1,0 +1,34 @@
+Introdução à programação para Internet
+
+O que é Internet
+
+Part 1: História
+
+- 1969. EUA. Arpanet. Departamento de Defesa. Guerra Fria. Interligar laboratórios. Primeiroe-mail.
+- 1982. Universidades. Holanda, DinamarcaeSuécia.
+- 1987. Liberadoouso comercial nos EUA.
+- 1992. CERN criaaWorld Wide Web. Dados acessíveis aqualquer pessoa com acesso à Internet.
+
+
+No Brasil
+
+- 1988. FAPESP, UFRJ, LNCC. Fizeram um acordo para trazer a internet para o Brasil
+- 1994. Uso comercial. Embratel.
+- Conexão discada.
+- 2000. Banda larga.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Exercicío Final:
+
+Qual foi o primeiro domínio criado?
+Resposta: O primeiro domínio registrado foi o symbolics.com, em 1985, por uma fabricante de computadores em Massachusetts, nos Estados Unidos. Nessa época, qualquer um poderia registrar um domínio gratuitamente.
+
+E o primeiro blog? 
+Resposta: Foi criado por um brasileiro, em 1994, o cientista do MIT Media Lab, Claudio Pinhanez, criou um site chamado "Open Diary"
+
+Qual foi a primeira compra feita pela Internet?
+Resposta: E o primeiro produto a ser vendido foi um CD do cantor Sting, em 11 de agosto de 1994. O comprador foi um homem chamado Phil Brandenberger, morador da Philadelphia. No caso, o álbum era Ten Summoner's Tales, de 1993.
+
+Qual site mais antigo em atividade?
+symbolics.com

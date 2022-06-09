@@ -1,0 +1,47 @@
+Termos-chave
+
+- download/upload: baixar e mandar dados para internet
+- Navegador: Chrome
+- banda larga: Tipo especifico de conexão       
+- cache: algumas coisas salvas no computador
+- crack: piratear um software    
+- email: correio eletrônico          
+- emoticons/emoji: figurinhas   
+- gif/jpg/png: formatos de imagens
+- host: servidor
+- HTML: Linguagem de marcação de hipertexto
+- HTTP: protocolo 
+- ícone: figurinha representativa
+- link: ligação 
+- login/logon: se conecta
+- logout/logoff: se desconecta
+- mp3: formato de música
+- multimídia: permite que você execute varios tipos de midias ao mesmo tempo
+- nick: apelido
+- online/offline: conectado/desconectado
+- pixel: são quadrados, resposavel por um elemento da imagem
+- spam: varios emails
+- URL: endereço
+- vírus: software malicioso
+- backup: cópia de segurança dos dados
+- blog: diário
+- (cyber)bullying: bulling na internet
+- 3G/4G/5G: velocidades da internet movél
+- cookies: pequenos registros que deixam no seu computador
+- firewall: parede com função de impedir acesso indevido
+- hacker: pessoa que encontra falhas e vulnerabilidades 
+- IP: nome, endereço, forma de reconhecer
+- keylogger: virus e ele fica capturando tudo oq se digita no teclado
+- phishing: golpe de enganação "pescar a vitima"
+- click bait: nóticias cuja função é somente clicar para começar outras funções
+- Fake news: noticias falsas
+- podcast: programa de radio na internet
+- vlog: videos pequenos de rotina
+- pop-up: caixa de acesso, permissão, inscrição, nao saia ainda
+- youtuber: profissao de criação de conteúdo
+               
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+                
