@@ -1,0 +1,9 @@
+Portas (do inglês: porst)
+
+- As "portinhas" por onde dados sairão e chegarão
+- 20: FTP (apenas para envio de arquivos) vai rolar na porta 20 a comunicação
+- 22: SSH (conexão segura entre dois computadores para executar comandos)
+- 25: SMTIP (para envio de emails)
+- 53: DNS (tradutor de nome para IP)
+- 80: HTTP (requisição simples na internt)
+- 443: HTTPS (requisição segura)

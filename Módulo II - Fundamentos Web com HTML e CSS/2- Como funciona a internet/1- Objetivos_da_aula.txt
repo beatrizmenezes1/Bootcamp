@@ -1,0 +1,60 @@
+Como Funciona a Internet
+
+Objetivos da Aula
+
+1. Redes 
+2. Backbone
+3. Provedor de acesso
+4. Provedor de serviço
+5. Usuário final
+
+
+1. Redes: Redes de computadores referem-se a dispositivos de computação interconectados que podem trocar dados e compartilhar recursos entre si. Esses dispositivos em rede usam um sistema de regras, chamados de protocolos de comunicação, para transmitir informações por meio de tecnologias físicas ou sem fio.
+
+
+2. Backbone
+
+- Espinha dorsal: tradução de backbone
+- Costelas: conexões
+- Poucas
+- Espalhadas pelo mundo
+
+3. Provedor de acesso
+Cada país pode ter uma ou mais
+- Empresas telefônicas
+- Contratam ao usuário final - você, empresas...
+Contratam o sinal do backbone
+
+4. Provedor de serviço
+
+- Dial-up: internet discada
+- ADSL (Banda larga)
+- Fibra ótica: cabos sensiveis
+- Rádio: comunicação por torre de rádio
+- Satélite
+- Móvel: torres proprias ou satelites
+- P2P* (peer to peer): comunicação direta entre dispositivos
+
+Caminho inverso
+
+- www : acessa
+- DNS : transforma o endereço em número que é chamado de IP
+- IP  : Intert Protocol
+- Classes de redes : Diversas classes de rede, ABC, DIE
+- 127.0.0.1 : Local Host, endereço do seu computador
+
+Exercicio no cmd:
+
+ping facebook.com.br
+
+Disparando facebook.com.br [31.13.74.18] com 32 bytes de dados:
+Resposta de 31.13.74.18: bytes=32 tempo=74ms TTL=50
+Resposta de 31.13.74.18: bytes=32 tempo=68ms TTL=50
+Resposta de 31.13.74.18: bytes=32 tempo=71ms TTL=50
+Esgotado o tempo limite do pedido.
+
+Estatísticas do Ping para 31.13.74.18:
+    Pacotes: Enviados = 4, Recebidos = 3, Perdidos = 1 (25% de
+             perda),
+Aproximar um número redondo de vezes em milissegundos:
+    Mínimo = 68ms, Máximo = 74ms, Média = 71ms

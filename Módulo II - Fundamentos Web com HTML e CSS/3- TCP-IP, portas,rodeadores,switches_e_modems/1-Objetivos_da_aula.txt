@@ -1,0 +1,8 @@
+TCP/IP, portas, roteadores, switches, modems
+
+Objetivos da aula
+
+1. TCP/IP
+2. Portas
+3. Roteadores, Switches e modems
+

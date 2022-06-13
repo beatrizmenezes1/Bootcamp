@@ -1,0 +1,31 @@
+TCP/IP
+
+- Protocolos de comunicação entre computadores em rede
+- Transmission Control Protocol - Protocolo de Contrelo de Transmissão: os dados não podem ser transmitidos de forma desordenada
+- Internet Protocol - Protocolo de Internet
+- Modelo de camadas
+
+4 camadas{
+
+1. Física (ex: placa de rede, placa wireless), por onde a conexão vai chegar
+2. Rede (ex: IP), rede configurada
+3. Transporte (ex: TCP, UDP), forma de transporte definida
+4. Aplicação (ex: FTP, SMTP, HTTP)
+
+}
+
+TCP x UDP {
+
+- UDP (manda as coisas sem saber para quem, BAGUNÇA)
+	Rápido
+	Não confiável, coisas podem se perder no caminho
+	Carro do ovo, todo mundo recebe a informação, mas o carro não sabe quem ta recebendo e oq ta recebendo
+	Livestream, serve para live em youtube, twich, ao vivo
+
+- TCP (pouco mais lento, porem com foco na informação)
+	Voltada à conexão
+	Handshake
+	Integridade, ordem dos dados
+	Aplicativo de mensagem de texto
+
+}
