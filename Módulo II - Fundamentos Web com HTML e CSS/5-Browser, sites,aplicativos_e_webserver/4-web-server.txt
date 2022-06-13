@@ -1,0 +1,19 @@
+Web-Server
+
+- Existem 2 tipos: estático e dinâmico
+- O estátocp é um servidor físico onde são armazenados arquivos, softwares e/ou banco de dados
+- O dinâmico se refere aos softwares que estão presents no servidor físico
+
+Web-server dinâmico
+
+- Arquivos (file server)
+- Aplicações (aplication server)
+- Banco de dados (database)
+- Tudo junto e misturado
+- Um site, ou aplicativo, precisa estar hospedado em um servidor para poder ser acessado
+- Os dados de um site precisam estar em um servidor
+- O banco de dados de um site ou aplicativo precisa estar em um servidor
+
+Web-service
+
+- Interface disponível para fazer requisições e consultas em bancos de dados inacessíveis (Correios, Governo)

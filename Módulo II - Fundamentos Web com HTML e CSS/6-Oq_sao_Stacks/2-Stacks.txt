@@ -1,0 +1,19 @@
+Stack 
+
+O que é?
+
+- Pilhas de tecnologia
+- Conjunto de softawares necessários e suficientes para executar um aplicativo/programa
+- Linguagens de programação
+- Ambientes e ferramentas de interação com app/sw
+- Capacidade e limitação de performance 
+- Pontos fortes e fracos do app/sw (sw - software)
+
+Importância
+
+- Os líderes de projetos precisam das informações das equipes de desenvolvimento
+- Os desenvolvedores precisam saber as limitações e capacidades das ferramentas e ambientes que têm disponíveis
+- Sistemas, bancos de dados, linguagens de programação, protocolo de comunicação
+- Estratégias de negócios
+- Maturidade
+- Contratação, planos de mitagações de risco, aumento da capacidade, uso dos dados
