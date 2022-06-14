@@ -1,0 +1,5 @@
+Browser, sites, aplicativos e webserver
+
+1. O que é um browser e como ele interpreta a Internet
+2. O que é um site, aplicativo, e-commerce
+3. O que é um web-serve, para serve e onde encontrá-lo

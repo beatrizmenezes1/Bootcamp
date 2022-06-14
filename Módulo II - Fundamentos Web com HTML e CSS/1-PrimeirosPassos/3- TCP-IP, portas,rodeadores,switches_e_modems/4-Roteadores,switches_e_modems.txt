@@ -1,0 +1,27 @@
+Roteadores, Switches e Modems
+
+Modem
+É um aparelho que modula e demodula sinais, transforma coisas humanas em sinais de internts
+
+- Modulator-demodulator 
+- Hardware que converte dados em um formato que possa ser transmitido de um computador para outro e lido por outro
+
+Rodeadores
+
+- Distribui internet para um ou mais dispositivos de uma rede
+- Pode fazer a comunicação entre redes
+- Pode ser "burro"
+
+Switches
+
+- Distrbui internet para um ou mais dispositivos de uma rede
+- Criado para ser "inteligente"
+
+NOTA: OS roteadores hoje em dia são inteligentes
+
+-------------------------------------------------------------------------------------------------------------
+
+Exercicio:
+
+Gmail usa quais portas? A porta padrão do servidor SMTP do Gmail é 465 para SSL e 587 para TSL.
+Quais as portas usadas pelo MySQL e Apache? 3306 e 80

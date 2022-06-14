@@ -1,0 +1,23 @@
+Site, Aplicativo e E-commerce
+
+Site 
+
+- Pagina da internet
+- Diversos propósitos
+- Podem ser feitos em diversas LP (Linguagens de programação)
+- D/XHTML caindo em desuso
+
+Aplicativo
+
+- Um software que é executado no navegador
+- Um aplicativo de celular, muitas vezes, nada mais é do que uma espécie de navegador
+- Hoje em dia, já quase não existe diferença entre site e aplicativo, o primeiro está em declínio
+- Outra diferença terminológica que está sumindo é progroma/software e aplicativo
+
+E-commerce
+
+- "e", assim como "e-mail", significa "electronic"
+- Comércio eletrônico
+- Site de compra e venda com sistema de pagamento
+- O sistema de pagamento pode ser exterior ao site
+- PicPAy, Boleto, PagSeguro, Paypal, Mercado Pago

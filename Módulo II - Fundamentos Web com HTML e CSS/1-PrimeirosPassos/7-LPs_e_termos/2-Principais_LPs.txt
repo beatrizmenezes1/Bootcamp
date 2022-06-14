@@ -1,0 +1,12 @@
+Principais LPs
+
+- HTML e CSS (liguagens de marcação e estilização)
+- javascript (jQuery, AJAX, diversas libs)
+- PHP
+- .NET
+- ASP
+- java
+- Ruby (on Rails)
+- Python
+- Perl
+- C/C++/C#

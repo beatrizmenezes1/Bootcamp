@@ -1,0 +1,72 @@
+Termos comuns
+
+Parte 1
+
+- 404 - quanto a pagina n existe
+- Algoritmo - sequencia de passos
+- ALT - texto alternativo, exemplo quanod vc passa o mouse em uma imagem
+- API - parte de um site que a gente pode usar em outro lugar
+- Aplicação - programa
+- Back-end - parte de tras do sitema
+- Bibliotecas/dll - conjunto de ferramentas
+- Bootstrap - framework
+- Breakpoints - pontos-chave, debbug os pontos de parada
+- Browser/navegador
+- Bug 
+- Cache
+- Código - instruções em LP
+- Controle de versão - sotfwares que controlam versões (exemplo: git)
+- Cookies
+- Debug - revisar 
+- Deploy - pacotinho que a gente manda para ser publicado
+- Design adaptativo/responsivo - Se adaptar o tamanho do site de acordo com  a tela
+- DNS
+- Documentação - interna - comentarios no codigo, externo - manual
+- Domínio 
+- DPI - proporção de pontos na tela
+- Editor de texto 
+- Estrutura de dados - array e etc.
+- Favicon - figurinha que define o site
+- Fontes - fonte de letra 
+- Frameworks - caixa de ferramenta disponivel para uso
+- Front-end
+- FTP - protocolo de comnicação quase que exclusivo para troca de arquivos
+- Full stack
+- GitHub/SVN/CVS
+--------------------------------------------------------------------------------------------------------
+
+Parte 2
+
+- HTTP(S) - camada de segurança
+- IP - numero de cada dispositivo
+- Linguagem - pode ser de marcação ou programação
+- Meta tags - algumas tags html
+- Método ágil - tecnicas de desenvolvimento de software
+- Mobile - dispositivos moveis
+- MVC - Modal view controle
+- MVP - Minimo produto viavel, disponibilizar um mini prototipo
+- MYSQL - linguagem sql
+- Pixel - quadradinho que forma uma tela
+- Resolução - quantidade de pixel na tela
+- Servidor 
+- Sistemas operacionais/ SO - windows, linux..
+- Solução - forma de dizer que é só um programa ou conjunto de programas e ferramentas
+- SSL - camada de segurança 
+- UI
+- UX 
+- Versão
+- WYSIWYG - oq vc ve é oq vc recebe, editores de texto no site 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

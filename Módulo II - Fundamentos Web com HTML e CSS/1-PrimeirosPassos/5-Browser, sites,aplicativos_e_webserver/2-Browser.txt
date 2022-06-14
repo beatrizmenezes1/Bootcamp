@@ -1,0 +1,7 @@
+Browser
+
+LP - Linguagem de programação
+
+- Sabe identiicar varias linguagens de programação e marcação
+- Os browsers fazem muito mais que isso: existem plug-ins, ou add-ons, que ajudam na navegação
+- Cache e cookies
