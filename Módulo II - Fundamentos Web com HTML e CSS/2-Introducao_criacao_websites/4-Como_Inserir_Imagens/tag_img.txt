@@ -1,6 +1,0 @@
-Imagens
-
-<img>
-
-<img src = "caminnho da imagem">
-<img alt = "descricao da foto">

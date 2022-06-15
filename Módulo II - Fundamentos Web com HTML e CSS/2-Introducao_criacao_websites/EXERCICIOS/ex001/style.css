@@ -1,0 +1,63 @@
+body{
+    background: rgb(91, 201, 182);
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+#titulo, .subtitulo, .post-titulo{
+    color:blueviolet;
+    font-size: 40px;
+    text-transform: uppercase;
+} 
+
+a{
+    text-decoration: line-through;
+    color: blue;
+}
+
+#paladins{
+    border-radius: 50%;
+}
+
+#paladins_2{
+    margin-bottom: 15px;
+}
+
+.post-titulo{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post{
+    background-color: azure;
+    padding: 10px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    
+}
+
+/* .post{
+	border: 3px solid blue;
+	border-top: 2px dotted green;
+	border-right: 4px dashed pink;
+} */
+
+.post-conteudo{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+
+.lista{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.lista li a {
+    text-decoration: none;
+}

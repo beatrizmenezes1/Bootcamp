@@ -1,9 +1,0 @@
-Listas
-
-servem para agrupar coleções de itens
-
-<ul> - ordem os itens não é importante
-
-<ol> - ordem dos itens é importante
-
-<li> - é um item dessa lista

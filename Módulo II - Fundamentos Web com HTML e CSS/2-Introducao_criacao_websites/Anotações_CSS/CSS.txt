@@ -1,0 +1,282 @@
+INTRODUÇÃO A CSS
+
+------------------------------------------------------
+#DEFINIÇÃO
+
+linguagem de formatação de estilo 
+
+O que são seletores? São apenas elementos HTML
+
+------------------------------------------------------
+#DECLARAÇÃO
+
+a,p,h1,h3{
+	color: blue;
+	font-size: 14px;
+}
+
+------------------------------------------------------
+#ID vs CLASSE
+
+<header id="header" class="header"> </header>
+<header class="header"> </header>
+
+id: n se repete, é unico
+classe: pode se repetir, n é unico
+
+id declaração:
+#header{
+
+}
+
+classe declaração:
+.header{
+
+}
+------------------------------------------------------
+#CONCEITOS BÁSICOS
+
+Navegador representa cada elemento HTML como uma caixa retangular (box model)
+
+areas do box model:
+
+- margin : são os espaçamentos entre elementos
+- border : as bordas circundam o padding e o content, e pode alterar a aparencia delas
+- padding : é o espaçamento entre a borda e o conteúdo
+- content : conteúdo
+
+------------------------------------------------------
+#PADDING
+
+===================
+.post{
+	padding: 10px;
+}
+
+===================
+.post{
+	padding: 10px 5px; - em cima e em baixo é 10px e os lados direito e esquerdo é 5px
+}
+
+===================
+.post{
+	padding: 15px 10px 5px 0; - nesse caso é um valor para cada lado(15px para o topo, 10px para a direita, 5px para a parte inferior e 0 para o lado esquedo)
+}
+===================
+.post{ - forma com as especficações detalhadas, normalmente usado quando tem 3 lados iguais e 1 diferente
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+
+==================
+
+------------------------------------------------------
+#BACKGROUND
+
+.post{
+	background-color: green; - mudar cor de fundo
+	background-image: url("bg.png") - colocar uma iamgem
+	background-position: top; - alterar a posição dessa imagem
+}
+
+
+formas de declaração de cor de fundo
+.post{
+	background-color: green;
+	background-color: #008800;
+	background: #008800;
+}
+
+------------------------------------------------------
+#BORDER
+
+pode ter 3 valores
+Largura: pixels, centímetros, milímetros...
+Cor: blue, #0000ff
+Estilo: sólida, ponti
+
+.post{
+	border: 3px solid blue;
+	border-top: 2px dotted green;
+	border-right: 4px dashed pink;
+}
+
+=========================================
+separando valores para cada lado da borda
+.post{
+	border-top: 2px dotted green;
+	border-right: 4px dashed pink;
+	border-bottom: 1px solid purple;
+	border-left: 4px dotted cyan:
+}
+
+=========================================
+Propriedades especificas para cada aspecto
+.post{
+	border: 3px solid #505050;
+}
+
+.post{
+	border-width: 3px; - largura
+	border-color: #505050; - cor
+	border-style: solid: - contorno
+} 
+
+=========================================
+Juntando os lados com os aspectos da borda para criar uma regra mais especifica ainda
+Mundando aspectos somente da borda superior
+.post{
+	border-top-width: 3px; - largura
+	border-top-color: blue; - cor
+	border-top-style: solid: - contorno
+}
+
+=========================================
+Border-radius
+
+Permite arredondar os cantos de um elemento
+
+border-radius: 10px; - altera todos os cantos de um elemento
+border-radius: 50%; - altera todos os cantos de um elemento/ se tiver um elemento quadrado, se por 50% ele ira ser redondo, um circulo
+border-radius: 10% 20%;	
+border-radius: 10% 20% 15% 22%;
+
+------------------------------------------------------
+#FONT
+
+====================================
+font-family
+
+Altera a fonte do nosso texto
+#titulo{
+	font-family: Verdana;
+}
+
+.post-titulo{
+	font-family: Verdana, Arial; duas fontes. caso a primeira n funciona, a segunda entra como um backup
+}
+
+====================================
+font-size:
+
+Altera o tamanho do nosso texto
+#titulo{
+	font-size: 30px;
+}
+
+.post-titulo{
+	font-size: 18px; 
+
+}
+
+====================================
+font-style:
+
+Altera a aparência do nosso texto
+#titulo{
+	font-style: normal; - padrão
+}
+
+.post-titulo{
+	font-style: italic; 
+
+}
+
+====================================
+font-weigth:
+
+Altera o peso do nosso texto
+#titulo{
+	font-weight: normal; - padrão
+}
+
+.post-titulo{
+	font-weight: bold; - negrito
+
+}
+====================================
+
+------------------------------------------------------
+#TEXT
+
+====================================
+text-transform:
+
+Alterna o texto entre maiúsculo e minúsculo
+#titulo{
+	text-transform: uppercase; - todo o texto em caixa alta (maiúsculo)
+}
+
+.sub-titulo{
+	text-transform: lowercase; - todo o texto em caixa baixa (minúsculo)
+
+}
+
+.post-titulo{
+	ext transform: capitalize; - coloca todas as primeiras letras do texto em caixa alta
+}
+
+====================================
+text-decoration
+
+Usadp para dar destaque a algum texto, pois ele coloca linhas
+#titulo{
+	text-decoration: underline; - coloca uma linha abaixo do texto
+}
+
+.sub-titulo{
+	text-decoration: overline; - coloca uma linha acima
+}
+
+.post-titulo{
+	text-decoration: line-through; - coloca uma linha ao centro, cortando a palavra
+}
+
+====================================
+
+------------------------------------------------------
+#LIST
+
+Aletrar o marcador das listas
+ul {
+	list-style-type: square; - altera o símbola para um quadrado da lista n ordenada
+}
+
+ol{
+	list-style-type: upper-roman; - altera o símbolo para algorismo romana da lista ordenada
+}
+
+ul {
+	list-style-type: "\1F44D" - altera para um emoji de legal da lista n ordenada
+}
+
+
+ul{
+	list-style-image: url("rocket.png"); - pode-se colocar imagens como marcador também
+}
+
+------------------------------------------------------
+#DIMENSÃO E ALINHAMENTO
+
+Servem para ajustar largura e altura
+- Width - largura
+- Height - altura
+
+largura e altura maxima que os elementos podem ter
+- Max-width 
+- Max-height
+
+Alinhamento
+- Margin
+
+Alinhar textos
+- Text align
+
+
+
+
+
+
+
