@@ -1,0 +1,44 @@
+body{
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(7, 61, 112);
+    
+}
+
+.titulo-logo{
+    font-size: 28px;
+    text-align: center;
+    color: rgb(24, 201, 224);
+}
+
+.titulo-logo h1 img{
+    height: 50px;
+}
+
+#paladins-nome-logo{
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    width: 600px;
+    border-top: 0px red;
+}
+
+a{
+    color: rgb(180, 226, 240);
+}
+
+.conteudo-paladins{
+    color: rgb(24, 201, 224);
+    text-align: justify;
+    font-size: 20px;
+    padding: 25px;
+	border: 5px dashed rgb(55, 145, 230);
+	
+}
+
+.conteudo-paladins div img{
+    padding-right: 30px;
+    height: 240px;
+    border-radius: 50%;
+  
+}
