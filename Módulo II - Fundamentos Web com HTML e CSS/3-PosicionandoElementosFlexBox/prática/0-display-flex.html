@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Display Flex</title>
+    <style>
+        .flex {
+            max-width: 200px;
+            padding: 10px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .item {
+            background-color: aqua;
+            margin: 4px;
+        }
+
+        /* -----------------------  praticando --------------------------- */
+        .flex-img {
+            max-width: 350px;
+            border: 2px solid black;
+            border-radius: 10px;
+            display: flex;
+        }
+
+        .item-img {
+            margin: 4px;
+            height: 100px;
+        }
+
+        .rosa {
+            background-color: rgba(236, 73, 209, 0.699);
+        }
+
+        .greenpast {
+            background-color: rgba(3, 121, 29, 0.466);
+        }
+
+        .purple{
+            background-color: rgba(128, 0, 128, 0.486);
+        }
+
+        .flex-text{
+            background-color: rgba(194, 47, 157, 0.308);
+            max-width: 750px;
+            border: 2px solid black;
+            border-radius: 10px;
+            display: flex;
+        }
+        .item-text{
+            margin: 10px;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <hr>
+    <br>
+
+    <p><i>Praticando... Com imagens!</i></p>
+    <section class="flex-img">
+        <div class="item-img rosa"><img class="item-img" src="img/curvas-remolinos-adornos-florales-2.png" alt=""></div>
+        <div class="item-img greenpast"><img class="item-img" src="img/decoracion-de-remolinos-florales-2.png" alt=""></div>
+        <div class="item-img purple"><img class="item-img" src="img/curso-de-ornamento-de-roda-de-flor.png" alt=""></div>
+    </section>
+
+    <hr>
+    <br>
+
+    <p><i>Praticando... Com textos!</i></p>
+    <section class="flex-text">
+        <div class="item-text"><p>Paladins Champions of the Realm is a free-to-play, online-multiplayer, class-based first person shooter video game developed by Evil Mojo Games (development studio under the Hi-Rez Studios publishing group) and launched out of beta on May 8th, 2018 with the version 0.70.2610.3 and later with the major A New(er) Frontier - 1.0b Update.</p></div>
+        <div class="item-text"><p>The game is rooted in a colorful fantasy setting featuring Champions, playable characters that have their own unique fire-function and skills. Combat in each game mode is also nearly entirely skillshot-based, meaning projectiles can be dodged. Although each champion has their own personality and abilities, to get around Paladins' maps, the real character variation comes from the Cards and Item Systems that augment a champion in different ways.</p></div>
+        <div class="item-text"><p>The PC version of Paladins can be downloaded through Steam, Discord and Epic Games. The console versions can be acquired for free through their respective online stores: Microsoft Store and PlayStation Store. The game is now also available on the Nintendo Switch: Nintendo eShop</p></div>
+    </section>
+</body>
+
+</html>

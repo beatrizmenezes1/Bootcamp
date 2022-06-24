@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align items</title>
+</head>
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: rgb(143, 8, 177);
+            margin: 5px;
+            color: azure;
+            text-align: center;
+            flex: 1 ;
+        }
+
+        .flex{
+            flex: 1;
+        }
+
+        .center{
+            align-items: center;
+        }
+
+        .stretch{
+            align-items: stretch;
+        }
+
+        .flex-start{
+            align-items: flex-start;
+        }
+
+        .flex-end{
+            align-items: flex-end;
+        }
+
+        .baseline{
+            align-items: baseline;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+
+        .central{
+            height: 300px;
+            justify-content: center;
+        }
+
+        .central .item{
+            flex: 0;
+            padding: 20px;
+        }
+
+    </style>
+
+<body>
+    <h1>ROW</h1>
+    <p>CENTER: itens alinhados ao centro, cresce de acordo com os elementos </p>
+    <section class="container center flex">
+        <div class="item">Item</div>
+        <div class="item">Lorem dolor sit gyb</div>
+        <div class="item">Item 3</div>
+    </section>
+    <hr>
+    <p>STRETCH: faz com que os itens cresçam de acordo com o maior item relacionado a altura</p>
+    <section class="container stretch flex">
+        <div class="item">Item</div>
+        <div class="item">Lorem dolor sit gybghdcfnurrf csnhuurnerguig cmnrghmrigvgg</div>
+        <div class="item">Item 3</div>
+    </section>
+    <hr>
+    <p>FLEX-START: traz todos os elementos ao topo</p>
+    <section class="container flex-start flex">
+        <div class="item">Item</div>
+        <div class="item">Lorem dolor sit gybrgnw7gwrfhor,e mh4,hr ,hurefgreigh rieg,reimghre,g</div>
+        <div class="item">Item 3</div>
+    </section>
+    <hr>
+    <p>FLEX-END: traz todos os itens para a parte de baixo</p>
+    <section class="container flex-end flex">
+        <div class="item">Item</div>
+        <div class="item">Lorem dolor sit gybgyfyfyvyvrrue r yfbryevyrebreu reubreyhgb</div>
+        <div class="item">Item 3</div>
+    </section>
+    <hr>
+    <p>BASELINE: usa a linha que tem como orientação pro nosso texto, os itens crescem de acordo com a linha do item 1</p>
+    <section class="container baseline flex">
+        <div class="item"><br> Item</div>
+        <div class="item">Lorem dolor sit gyb</div>
+        <div class="item">Item 3</div>
+    </section>
+
+    <h1>COLUMN</h1>
+
+    <p>CENTER: itens alinhados ao centro, cresce de acordo com os elementos </p>
+    <section class="container center flex column">
+        <div class="item">Item</div>
+        <div class="item">Lorem dolor sit gyb</div>
+        <div class="item">Item 3</div>
+    </section>
+    <hr>
+    <p>STRETCH: faz com que os itens cresçam de acordo com o maior item relacionado a altura</p>
+    <section class="container stretch flex column">
+        <div class="item">Item</div>
+        <div class="item">Lorem dolor sit gybghdcfnurrf csnhuurnerguig cmnrghmrigvgg</div>
+        <div class="item">Item 3</div>
+    </section>
+    <hr>
+    <p>FLEX-START: traz todos os elemento para o lado esquerdo da tela</p>
+    <section class="container flex-start flex column">
+        <div class="item">Item</div>
+        <div class="item">Lorem dolor sit gybrgnw7gwrfhor,e mh4,hr ,hurefgreigh rieg,reimghre,g</div>
+        <div class="item">Item 3</div>
+    </section>
+    <hr>
+    <p>FLEX-END: traz todos os itens para o lado direito da tela</p>
+    <section class="container flex-end flex column">
+        <div class="item">Item</div>
+        <div class="item">Lorem dolor sit gybgyfyfyvyvrrue r yfbryevyrebreu reubreyhgb</div>
+        <div class="item">Item 3</div>
+    </section>
+    <hr>
+    <p>BASELINE: usa a linha que tem como orientação pro nosso texto, os itens crescem de acordo com a linha do item 1</p>
+    <section class="container baseline flex column">
+        <div class="item"><br> Item</div>
+        <div class="item">Lorem dolor sit gyb</div>
+        <div class="item">Item 3</div>
+    </section>
+    <hr>
+    <h1>ITEM CENTRAL: ALINHAMENTO CENTRAL A TELA</h1>
+    <section class="container central center ">
+        <div class="item">hufrjhuweuwehdehe3jirjiofejfhsfhiu</div>
+    </section>
+</body>
+</html>
