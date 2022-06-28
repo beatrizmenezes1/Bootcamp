@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align self</title>
+    <style>
+        .container{
+            max-width: 850px;
+            border: 2px solid;
+            margin-bottom: 10px;
+            display: flex;
+        }
+
+        .align-container{
+            align-items: flex-end;
+        }
+
+        .item{
+            background-color: rgba(153, 63, 205, 0.788);
+            color: aliceblue;
+            font-size: 24px;
+            text-align: center;
+            border: 2px solid rgb(51, 2, 51);
+            margin: 5px;
+        }
+
+        
+        .self-auto{
+            align-self: auto;
+        }  /*configuração padrão */
+
+        .self-center{
+            align-self: center;
+        }
+
+        .self-start{
+            align-self: flex-start;
+        }
+
+        .self-end{
+            align-self: flex-end;
+        }
+
+        .self-stretch{
+            align-self: stretch;
+        }
+
+        .self-baseline{
+            align-self: baseline;
+        }
+        
+        .flex-direction{
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>ROW - somente auto </h1>
+    <section class="container">
+        <div class="item self-auto">AAA</div>
+        <div class="item self-auto">123</div>
+        <div class="item self-auto">gefyuef efbue ufbewej ygfyew yuewvfy yuwevfyuwe wyuefvyuew wuefvweyu uiewfvwe </div>
+        <div class="item self-auto"> ITEM 4</div>
+    </section>
+    <hr>
+    <h1>ROW - alternados</h1>
+    <div class="container">
+        <div class="item stretch">AAA</div>
+        <div class="item self-start">1234</div>
+        <div class="item auto">gefyuef efbue ufbewej ygfyew yuewvfy yuwevfyuwe wyuefvyuew wuefvweyu uiewfvwe </div>
+        <div class="item self-end">item 4</div>
+    </div>
+    <hr>
+    <h1>ROW - AAA</h1>
+    <div class="container">
+        <div class="item self-start">start</div>
+        <div class="item self-end">end</div>
+        <div class="item self-center"> CENTER AAAaaaaaaaaaaaaaaaa</div>
+        <div class="item self-auto"> AUTO AAAaaaaaaaaaaaaaaaaaaaaaaa</div>
+        <div class="item self-auto"> AUTO gefyuef efbue ufbewej ygfyew yuewvfy yuwevfyuwe wyuefvyuew wuefvweyu uiewfvwe </div>
+    </div>
+
+    <hr>
+    <br>
+
+    <h1>COLUMN - somente auto </h1>
+    <section class="container flex-direction align-container">
+        <div class="item self-auto">AAA</div>
+        <div class="item self-auto">123</div>
+        <div class="item self-auto">gefyuef efbue ufbewej ygfyew yuewvfy yuwevfyuwe wyuefvyuew wuefvweyu uiewfvwe </div>
+        <div class="item self-auto"> ITEM 4</div>
+    </section>
+    <hr>
+    <h1>COLUMN - alternados</h1>
+    <div class="container flex-direction">
+        <div class="item stretch">AAA</div>
+        <div class="item self-start">1234</div>
+        <div class="item auto">gefyuef efbue ufbewej ygfyew yuewvfy yuwevfyuwe wyuefvyuew wuefvweyu uiewfvwe </div>
+        <div class="item self-end">item 4</div>
+    </div>
+    <hr>
+    <h1>COLUMN - alternados</h1>
+    <div class="container flex-direction">
+        <div class="item self-start">start</div>
+        <div class="item self-end">end</div>
+        <div class="item self-center">center</div>
+        <div class="item self-auto">auto</div>
+        <div class="item self-auto">auto dsyufgsdyfg efyugryubf yufgerehb rgrbeg 7fgb eyfbe yefub e yefb yefvbe yfbe ywefvbe f</div>
+    </div>
+</body>
+</html>

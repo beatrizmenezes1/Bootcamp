@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - flex basis</title>
+    <style>
+        .container{
+            max-width: 500px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: blueviolet;
+            color: aliceblue;
+            text-align: center;
+            margin: 5px;
+            border: 2px solid black;
+        }
+
+        .basis-auto{
+            flex-basis: auto;
+        }
+
+        .flex-grow-1{
+            flex-grow: 1;
+        }
+        
+        .flex-grow-0{
+            flex-grow: 0;
+        }
+
+        .basis-valores{
+            flex-basis: 100px;
+        }
+
+        .basis-0{
+            flex-basis: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <p>flex-basis: auto, vai tentar ocupar todo o espaço restante dentro do container referente meus itens caso seja aplicado em um item</p>
+    <div class="container">
+        <div class="item basis-auto flex-grow-1">A</div>
+        <div class="item basis-auto flex-grow-1">BBBB</div>
+        <div class="item basis-auto flex-grow-1">C</div>
+        <div class="item basis-auto flex-grow-1">DEF</div>
+    </div>
+    <hr>
+    <p>flex-basis: 0</p>
+    <div class="container">
+        <div class="item basis-0 flex-grow-1">Aaa</div>
+        <div class="item basis-0 flex-grow-1">BBBB</div>
+        <div class="item basis-0 flex-grow-1">C</div>
+        <div class="item basis-0 flex-grow-1">DEF</div>
+    </div>
+    <hr>
+    <p>flex-basis: valores / basis + width</p>
+    <div class="container">
+        <div class="item basis-valores">A</div>
+        <div class="item basis-valores">BBBB</div>
+        <div class="item basis-valores">C</div>
+        <div class="item basis-valores">DEF</div>
+    </div>
+</body>
+</html>

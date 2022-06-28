@@ -13,25 +13,59 @@
             margin: 0 auto;
             display: flex;
             flex-wrap: wrap;
-            border: 2px solid black;
+            border: 2px solid rgb(44, 2, 63);
         }
         .item{
-            background-color: chocolate;
+            background-color: rgba(153, 30, 210, 0.637);
             padding: 0 5px;
             margin: 5px;
             flex: 1;
             text-align: justify;
             color: azure;
+            border: 2px solid rgb(44, 2, 63);
+        }
+
+        P{
+            text-align: center;
+        }
+
+        h1{
+            color: rgb(44, 2, 63);
+            text-align: center;
         }
 
         .stretch{
             align-content: stretch;
         }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-between{
+            align-content: space-between;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
     </style>
 
 </head>
 <body>
-    <div class="container">
+    <h1>ALING CONTENT</h1>
+    <hr>
+    <p>STRETCH</p>
+    <div class="container stretch">
         <div class="item">aaaaaaaaa aaefgsyfgs yevfyevfyw vfyhv</div>
         <div class="item">bbbbbbbbbbbbbbbbb bgyfryefgeyfgye rfy</div>
         <div class="item">ccccccc ccccccccccc ccccruhfuire hg</div>
@@ -40,5 +74,61 @@
         <div class="item">eeeeeeee eeeeeeeir ghiorehguor ehgoure</div>
         <div class="item">ffffffff fffffffffr ughruegu regffffff</div>
     </div>
+    <hr>
+    <p>CENTER</p>
+    <div class="container center">
+        <div class="item">aaaaaaaaa aaefgsyfgs yevfyevfyw vfyhv</div>
+        <div class="item">bbbbbbbbbbbbbbbbb bgyfryefgeyfgye rfy</div>
+        <div class="item">ccccccc ccccccccccc ccccruhfuire hg</div>
+        <div class="item">maioooorrrr rrrrrrrrrrrrrrrrrr rrrrrrrruigh rieuguriegh rrrrrrrrrrr rrrrrrrrrrrrrrr gregerg grtrth56h rtrhrthrt</div>
+        <div class="item">dddddd dddddddd ddderughru ehgbreb gue</div>
+        <div class="item">eeeeeeee eeeeeeeir ghiorehguor ehgoure</div>
+        <div class="item">ffffffff fffffffffr ughruegu regffffff</div>
+    </div>
+    <hr>
+    <p>FLEX-START</p>
+    <div class="container flex-start">
+        <div class="item">aaaaaaaaa aaefgsyfgs yevfyevfyw vfyhv</div>
+        <div class="item">bbbbbbbbbbbbbbbbb bgyfryefgeyfgye rfy</div>
+        <div class="item">ccccccc ccccccccccc ccccruhfuire hg</div>
+        <div class="item">maioooorrrr rrrrrrrrrrrrrrrrrr rrrrrrrruigh rieuguriegh rrrrrrrrrrr rrrrrrrrrrrrrrr gregerg grtrth56h rtrhrthrt</div>
+        <div class="item">dddddd dddddddd ddderughru ehgbreb gue</div>
+        <div class="item">eeeeeeee eeeeeeeir ghiorehguor ehgoure</div>
+        <div class="item">ffffffff fffffffffr ughruegu regffffff</div>
+    </div>
+    <hr>
+    <p>FLEX-END</p>
+    <div class="container flex-end">
+        <div class="item">aaaaaaaaa aaefgsyfgs yevfyevfyw vfyhv</div>
+        <div class="item">bbbbbbbbbbbbbbbbb bgyfryefgeyfgye rfy</div>
+        <div class="item">ccccccc ccccccccccc ccccruhfuire hg</div>
+        <div class="item">maioooorrrr rrrrrrrrrrrrrrrrrr rrrrrrrruigh rieuguriegh rrrrrrrrrrr rrrrrrrrrrrrrrr gregerg grtrth56h rtrhrthrt</div>
+        <div class="item">dddddd dddddddd ddderughru ehgbreb gue</div>
+        <div class="item">eeeeeeee eeeeeeeir ghiorehguor ehgoure</div>
+        <div class="item">ffffffff fffffffffr ughruegu regffffff</div>
+    </div>
+    <hr>
+    <p>SPACE-BETWEEN</p>
+    <div class="container space-between">
+        <div class="item">aaaaaaaaa aaefgsyfgs yevfyevfyw vfyhv</div>
+        <div class="item">bbbbbbbbbbbbbbbbb bgyfryefgeyfgye rfy</div>
+        <div class="item">ccccccc ccccccccccc ccccruhfuire hg</div>
+        <div class="item">maioooorrrr rrrrrrrrrrrrrrrrrr rrrrrrrruigh rieuguriegh rrrrrrrrrrr rrrrrrrrrrrrrrr gregerg grtrth56h rtrhrthrt</div>
+        <div class="item">dddddd dddddddd ddderughru ehgbreb gue</div>
+        <div class="item">eeeeeeee eeeeeeeir ghiorehguor ehgoure</div>
+        <div class="item">ffffffff fffffffffr ughruegu regffffff</div>
+    </div>
+    <hr>
+    <p>SPACE-AROUND</p>
+    <div class="container space-around">
+        <div class="item">aaaaaaaaa aaefgsyfgs yevfyevfyw vfyhv</div>
+        <div class="item">bbbbbbbbbbbbbbbbb bgyfryefgeyfgye rfy</div>
+        <div class="item">ccccccc ccccccccccc ccccruhfuire hg</div>
+        <div class="item">maioooorrrr rrrrrrrrrrrrrrrrrr rrrrrrrruigh rieuguriegh rrrrrrrrrrr rrrrrrrrrrrrrrr gregerg grtrth56h rtrhrthrt</div>
+        <div class="item">dddddd dddddddd ddderughru ehgbreb gue</div>
+        <div class="item">eeeeeeee eeeeeeeir ghiorehguor ehgoure</div>
+        <div class="item">ffffffff fffffffffr ughruegu regffffff</div>
+    </div>
+
 </body>
 </html>

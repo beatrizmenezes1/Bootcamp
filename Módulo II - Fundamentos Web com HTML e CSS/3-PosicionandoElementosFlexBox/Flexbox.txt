@@ -23,7 +23,7 @@ Propriedades relacionadas:
 
 Propriedades relacionadas:
 - flex-grow: define o valor de crescimento.
-- fle-basis: define o valor inicial desse item antes da distribuição do espaço restante dentro do container.
+- flex-basis: define o valor inicial desse item antes da distribuição do espaço restante dentro do container.
 - flex-shrink: define a capacidade de redução
 - flex: abreviação para as três propriedades acima.
 - order: relacionado a ordem de distribuição e listagem desses itens
@@ -54,9 +54,9 @@ Os eixos...
 º row (padrão): à direção do texto, esquerda para direita. ex: 1 2 3 4 
 º row-reverse: sentido oposto à direção do texto. ex: 4 3 2 1 
 º columm: ordenação de cima para baixo, em coluna única. ex: 1
-														2
-														3
-														4
+												   2
+												   3
+												   4
 
 º columm-reverse: ordenação inversa, de baixo para cima. ex: 4
 												   3
@@ -75,7 +75,7 @@ Os eixos...
 
 ## ESTRUTURA BÁSICA E PRÁTICA COM FLEX FLOW
 
-É um atalho para as propriedades flex-direction e flex-wrap. Porém seu uso não é tão comum, visto que, quando mudamos o flex-direction para columm, mantemos o padrão do flex-wrap que é nowrap.
+É um atalho para as propriedades flex-direction e flex-wrap. Porém seu uso não é tão comum, visto que, quando mudamos o flex-direction para column'''''''''''''''''''''''''''''''', mantemos o padrão do flex-wrap que é nowrap.
 
 ## ESTRUTURA BÁSICA DO JUSTIFY CONTENT
 
@@ -125,9 +125,63 @@ Tipos de alinhamento
 º stretch: é o padrão e os flex itens crescem igualmente
 º flex-start: alinhamento dos itens no início
 º flex-end: alinhamento dos itens no final
-º space-between: cria um espaçamentos do mei são duas vezes maiores que o incial e final
+º space-between: cria um espaçamento igual entre os elementos
+º space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final 
 
 
+
+
+#FUNDAMENTOS DO FLEXBOX - PARTE 2 - foco Flex Items
+
+## ESTRUTURA BÁSICA E PRÁTICA COM FLEX GROW
+
+Define a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteúdos internos. Quando se trabalha com flex-grow, só pode ter números, ou vai ser 0 ou vai ser um número relacionado a proporção de crescimento.
+
+
+OBS: não irá funcionar caso tenhamos adicionado justify-content o nosso flex container
+
+
+## ESTRUTURA BÁSICA DO FLEX BASIS E PRÁTICA
+
+
+É a propriedade que estabelece o tamanho inicial do item antes das distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto. Vai lidar com o tamanho mínimo esperado por esse item.
+
+Valores possíveis:
+
+º auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
+º px, %, em, ... : são valores exatos previamente definidos
+º 0 (zero): terá relação com a definição do flex-grow
+
+## ESTRUTURA BÁSICA DO FLEX SHRINK E PRÁTICA
+
+É a propriedade que estabalece a capacidade de redução ou compressão do tamanho de um item.
+
+
+## ESTRUTURA BÁSICA E PRÁTICA DO FLEX
+
+shta propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
+
+flex: 1 0 auto seria algo como definir 
+
+
+## ESTRUTURA BÁSICA  E PRÁTICA DO ORDER
+
+
+Propriedade que vai lidar diretamente com a ordenação dos nosso itens
+
+
+## ESTRUTURA BÁSICA E PRÁTICA COM ALIGN SELF
+
+É a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+
+Valores possíveis
+
+º auto: valor padrão, irá respeitar a definição de align-items do container
+º flex-start: ao início do container
+º flex-end: ao final do container
+º center: relativo ao centro de acordo com o eixo
+º stretch: ocupa todo o espaço relativo
+º baseline: utiliza a linha base da tipografia
 
 
 
