@@ -1,0 +1,33 @@
+FLEXBOX - Caixa flexível de elementos 
+
+Onde por o Flex Container? É sempre posto numa tag que vai ta por fora com os elementos dentro
+
+-------------------
+Exemplo 1:
+
+<ul>
+	<li> Filho 1 </li>
+	<li> Filho 2 </li>
+	<li> Filho 3 </li>
+</ul>
+
+A tag <ul> é a onde vai ser posto do flex-container
+
+--------------------
+
+Exemplo 2:
+
+HTML
+
+tag main como elemento pai e as div's como elementos filhos
+
+<main class="container"> -	
+
+	<div class="bloco-1"> 1 </div>
+	<div class="bloco-2"> 2 </div>
+	<div class="bloco-3"> 3 </div>
+
+</main>
+
+CSS
+

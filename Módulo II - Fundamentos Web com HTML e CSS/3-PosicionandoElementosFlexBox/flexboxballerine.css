@@ -1,0 +1,172 @@
+/* geral */
+h1{
+    font-size: 40px;
+    margin: 50px 90px;
+    text-decoration: underline;
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.borda-1{
+    border: 2px solid black;
+    margin: 20px 600px;
+    border-radius: 20px;
+    background-color: rgba(156, 84, 238, 0.336);
+}
+
+.borda-2{
+    border: 2px solid black;
+    margin: 20px 600px;
+    border-radius: 20px;
+    background-color: rgba(170, 42, 202, 0.534);
+}
+
+/* >>>>>>>>>>>>>>>>>>> INICIO >>>>>>>>>>>>>>>>>>>>>> */
+.inicio{
+    border: 2px solid black;
+    margin: 30px 500px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.container{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+}
+
+.flex-container{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+    display: flex;
+}
+
+.bloco-1{
+    background-color: rgba(87, 184, 248, 0.884);
+    border: 1px solid brown;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+}
+
+.bloco-2{
+    background-color: rgba(225, 115, 247, 0.973);
+    border: 1px solid brown;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+}
+
+.bloco-3{
+    background-color: rgba(255, 73, 73, 0.712);
+    border: 1px solid brown;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+}
+
+/* >>>>>>>>>>>>>>>>> fIM-Inicio >>>>>>>>>>>>>>>>>>>>>> */
+
+/* conteudo - lista */
+.conteudo-flex{
+    padding: 0;
+    margin: 0;
+}
+
+.propriedades-flex{
+    margin: 50px;
+    font-size: 20px;
+}
+
+/* flex-direction */
+.flex-container-row{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flex-container-row-reverse{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-container-column{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-column-reverse{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* justify-content */
+.flex-container-jc-start{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-container-jc-end{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-container-jc-center{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-container-jc-sb{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-container-jc-sa{
+    background-color: rgb(248, 230, 147);
+    border: 1px solid rgb(243, 166, 72);
+    padding: 20px 20px;
+    margin: 20px ;
+    display: flex;
+    justify-content: flex-start;
+}
